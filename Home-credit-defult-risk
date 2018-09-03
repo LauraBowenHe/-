@@ -1,0 +1,16 @@
+第一名的解法
+https://www.kaggle.com/c/home-credit-default-risk/discussion/64821
+lessons learned:
+(1)Feature Engineering:
+  a. features can be combined together with time, for example, use time as weights;
+  b. do feature selections when features are too many, some simple but well-worked tool like ridge regression;
+  c. features are too much, and when it needs adding new featues, roughly check same or different;
+  d. their solution comes to the end with 1800-2000 features in lightgbm, I thought hundreds will be many enough, but it seems not;
+(2) Models:
+  a. LightGBM
+  b. FastRGF
+  c. FFM(behave below the expectation)
+  d. DAE means denoising autoencoder preprocessing as input to nn
+
+
+to continue...
